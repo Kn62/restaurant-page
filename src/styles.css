@@ -25,6 +25,10 @@ body {
     gap: 60px;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
 header {
     min-height: 100px;
     width: 100%;

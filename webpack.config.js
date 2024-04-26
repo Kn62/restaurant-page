@@ -1,7 +1,5 @@
 const path = require('path');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-import html from "./file.html";
-
 
 module.exports = {
   entry: './src/index.js',
@@ -22,10 +20,6 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
-      },
-      {
-        test: /\.html$/i,
-        loader: "html-loader",
       },
     ],
   },
